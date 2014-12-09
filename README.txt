@@ -1,10 +1,14 @@
-CSPP_DSC extends the CS++_Core package of the CS++-Project. 
+CSPP_DSC extends the CSPP_Core package of the CS++-Project. 
 
-It contains derived classes of the CS++GUIActor for Alarming and Trending using the NI LabVIEW Data Logging and Supervisory Control Module.
+It contains a derived classes of
+- CS++SVMonitor
+- CS++MessageLogger as well as the
+- CS++DSCAlarmViewer
+- CS++DSCTrendViewer
 
 Refer to https://github.com/HB-GSI/CSPP for CS++ project overview, details and documentation.
 
-LabVIEW 2013 is currently used development.
+LabVIEW 2014 is the currently used development environment.
 
 Related documents and information
 =================================
@@ -14,26 +18,35 @@ Related documents and information
 - Contact: H.Brand@gsi.de or D.Neidherr@gsi.de
 - Download, bug reports... : http://github.com/HB-GSI/CSPP_DSC
 - Documentation:
-  - Refer to Documantation Folder
+  - Refer to package folder
   - Project-Wiki: https://github.com/HB-GSI/CSPP/wiki
   - NI Actor Framework: https://decibel.ni.com/content/groups/actor-framework-2011?view=overview
 
-You can use this package as GIT Submodule
+GIT Submodules
+==============
+This package can be used as submodule
+- Packages\CSPP_DSC:
+  - CS++DSCMonitor
+  - CS++MsgLogger
+  - CS++DSCAlarmViewer
+  - CS++DSCTrendViewer
 
 External Dependencies
-=================================
-- CSPP_Core submodule http://github.com/HB-GSI/CSPP_Core
+---------------------
+- CSPP_Core: http://github.com/HB-GSI/CSPP_Core
+- Syslog; Refer to http://sine.ni.com/nips/cds/view/p/lang/de/nid/209116
 
-Optional submodules available:
-- Packages/CSPP_Examples
+Optional submodules
+-------------------
+- CSPP_Examples
 
 Getting started:
 =================================
-- Add CS++DSCContent.vi into your own LabVIEW project. You can drag the desired libraries from the dependencies into your virtual project folder structure.
+- Add CS++Syslog.lvlib into your own LabVIEW project.
+- Add CS++Syslog.lvclass into your desired case of the CS++UserContents.vi
 - You need to extend your project specific ini-file.
-  - Sample ini-file should be available for all classes, either in the LV-Project or on disk in the corresponding class or package folder.
-- You need to create and deploy your project specific shared Variable libraries.
-  - Sample shared Variable libraries should be available for all concerned classes on disk in the corresponding class or package folder.
+  - A sample ini-file should be available on disk in the corresponding package folder.
+- You need to start yout central Syslog message logger somewhere.
 
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
