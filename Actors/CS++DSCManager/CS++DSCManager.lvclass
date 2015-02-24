@@ -72,6 +72,15 @@ Planckstr. 1, 64291 Darmstadt, Germany</Property>
 		</Item>
 	</Item>
 	<Item Name="Control" Type="Folder">
+		<Item Name="Create Process.vi" Type="VI" URL="../Create Process.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(I!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%J!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%E.4+SN%5U..97ZB:W6S)'^V&gt;!!!%%!Q`````Q&gt;N97.I;7ZF!!Z!-0````]%&lt;G&amp;N:1!!$E!S`````Q2Q982I!!!;1&amp;!!!Q!'!!=!#!V%982B)%2B&gt;'&amp;C98.F!"R!5!!$!!9!"Q!)$E&amp;M98*N)%2B&gt;'&amp;C98.F!!!51&amp;!!!A!*!!I)2'&amp;U97*B=W5!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!+1#%%5H6O0Q!!&amp;E!Q`````QR1=G^D:8.T)%ZB&lt;75!!%B!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%5.4+SN%5U..97ZB:W6S)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!M!"!!-!!U!$A!0!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!AA!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
 		<Item Name="Enable Process.vi" Type="VI" URL="../Enable Process.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%J!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%E.4+SN%5U..97ZB:W6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!!J!)123&gt;7Y`!!!71$$`````$&amp;"S&lt;W.F=X-A4G&amp;N:1!!3%"Q!"Y!!#U51V-L+U241UVB&lt;G&amp;H:8)O&lt;(:M;7)71V-L+U241UVB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!21V-L+U241UVB&lt;G&amp;H:8)A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!##!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -98,6 +107,26 @@ Planckstr. 1, 64291 Darmstadt, Germany</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Delete Process.vi" Type="VI" URL="../Delete Process.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%J!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%E.4+SN%5U..97ZB:W6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!":!-0````]-5(*P9W6T=S"/97VF!!")1(!!(A!!,22$5SML2&amp;.$47&amp;O97&gt;F=CZM&gt;GRJ9B:$5SML2&amp;.$47&amp;O97&gt;F=CZM&gt;G.M98.T!"&amp;$5SML2&amp;.$47&amp;O97&gt;F=C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!+!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+	</Item>
+	<Item Name="Shared Variable" Type="Folder">
+		<Item Name="Create SV.vi" Type="VI" URL="../Create SV.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;3!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%J!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%E.4+SN%5U..97ZB:W6S)'^V&gt;!!!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!%B!=!!?!!!N&amp;%.4+SN%5U..97ZB:W6S,GRW&lt;'FC&amp;E.4+SN%5U..97ZB:W6S,GRW9WRB=X-!%5.4+SN%5U..97ZB:W6S)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 </LVClass>
