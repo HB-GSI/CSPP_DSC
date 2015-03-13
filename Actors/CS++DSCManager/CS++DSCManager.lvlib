@@ -43,5 +43,18 @@ Planckstr. 1, 64291 Darmstadt, Germany</Property>
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Messages" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Deploy Libraries Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Deploy Libraries Msg/Deploy Libraries Msg.lvclass"/>
+		<Item Name="Save Process to Library Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Save Process to Library Msg/Save Process to Library Msg.lvclass"/>
+		<Item Name="Save SV to Library Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Save SV to Library Msg/Save SV to Library Msg.lvclass"/>
+		<Item Name="Undeploy Libraries Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Undeploy Libraries Msg/Undeploy Libraries Msg.lvclass"/>
+		<Item Name="Create Process Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Create Process Msg/Create Process Msg.lvclass"/>
+		<Item Name="Enable Process Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Enable Process Msg/Enable Process Msg.lvclass"/>
+		<Item Name="Enable Process Alarm Logging Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Enable Process Alarm Logging Msg/Enable Process Alarm Logging Msg.lvclass"/>
+		<Item Name="Enable Process Data Logging Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Enable Process Data Logging Msg/Enable Process Data Logging Msg.lvclass"/>
+		<Item Name="Delete Process Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Delete Process Msg/Delete Process Msg.lvclass"/>
+		<Item Name="Create SV Msg.lvclass" Type="LVClass" URL="../../CS++DSCManager Messages/Create SV Msg/Create SV Msg.lvclass"/>
+	</Item>
 	<Item Name="CS++DSCManager.lvclass" Type="LVClass" URL="../CS++DSCManager.lvclass"/>
 </Library>
