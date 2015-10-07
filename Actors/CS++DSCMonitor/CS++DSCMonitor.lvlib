@@ -11,6 +11,9 @@
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This library contains actors to monitor Shared Variables using user events.
 
+Conditional Disable Symbols:
+DSCGetVarList={DSC=default, Workaround}
+
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
 Copyright 2014  GSI Helmholtzzentrum für Schwerionenforschung GmbH
