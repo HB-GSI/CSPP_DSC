@@ -12,7 +12,7 @@
 	<Property Name="NI.Lib.Description" Type="Str">This library contains actors to monitor Shared Variables using user events.
 
 Conditional Disable Symbols:
-DSCGetVarList={DSC=default, Workaround}
+DSCGetVarList={DSC, PSP=default}
 
 Author: H.Brand@gsi.de, D.Neidherr@gsi.de
 
