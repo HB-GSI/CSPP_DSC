@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<hypertrend description="National Instruments Hyper Trend ActiveX Control" version="16.0.0">
+
+  <sync_with_data>True</sync_with_data>
+
+  <show_legend>True</show_legend>
+
+  <legend_align_right>True</legend_align_right>
+
+  <legend_width>150</legend_width>
+
+  <immediate_update>True</immediate_update>
+
+  <fixed_grid>False</fixed_grid>
+
+  <relative_time>False</relative_time>
+
+  <zoom_pan_mode>Zoom X and Y</zoom_pan_mode>
+
+  <active_group_index>0</active_group_index>
+
+  <groups>
+    <group>
+      <name>Group1</name>
+      <caption></caption>
+      <start_time>5/12/2017 7:3:21.778 AM</start_time>
+      <end_time>5/12/2017 9:11:21.778 AM</end_time>
+      <is_plotting>True</is_plotting>
+      <auto_scale_y>True</auto_scale_y>
+      <axis_configuration>
+        <axis_caption>Axis 1</axis_caption>
+      </axis_configuration>
+      <major_grid_color>0x008000</major_grid_color>
+      <minor_grid_color>0x008000</minor_grid_color>
+      <graph_background_color>0x000000</graph_background_color>
+      <major_grid_lines_visible>True</major_grid_lines_visible>
+      <minor_grid_lines_visible>True</minor_grid_lines_visible>
+      <traces/>
+    </group>
+  </groups>
+
+</hypertrend>
